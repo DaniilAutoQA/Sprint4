@@ -24,7 +24,8 @@ public class AccountTest {
                 {" Ea", false},
                 {"Eva En Ru", false},
                 {"Eva Featherstonehao", true},
-                {"Eva Featherstonehapg", false}
+                {"Eva Featherstonehapg", false},
+                {"", false}
         };
     }
 
