@@ -8,6 +8,10 @@ public class Account {
 
     public  boolean checkNameToEmboss() {
 
+        if (name == null){
+            return false;
+        }
+
         return name.matches("^\\S\\w*\\s{1}\\w{1,15}$");
 
     }
